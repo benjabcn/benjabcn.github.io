@@ -4,7 +4,8 @@
 <ul>
 <li> Different video sources for different qualities.
 <li> In-stream pre-roll video ad from ExoClick (5 minutes capping)
-<li> <b>Default</b> layout from Fluid Player CDN
+<li> Default layout from Fluid Player CDN
+<li> Show "Advertising" on top right when a pre-roll is running
 </ul>
 
 <link rel="stylesheet" href="https://cdn.fluidplayer.com/current/fluidplayer.min.css" type="text/css"/>
@@ -34,7 +35,8 @@
 <script type="text/javascript">
 	var testVideo = fluidPlayer('my-video', {
 	 adList: [{roll: 'preRoll', vastTag: 'https://syndication.exosrv.com/splash.php?idzone=2916384'}],
-	 layout: 'default'
+	 layout: 'default',
+	 adText: 'Advertising'
 	});
 </script>
 </pre>
