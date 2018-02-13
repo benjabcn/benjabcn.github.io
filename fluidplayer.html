@@ -2,6 +2,7 @@
 <div><b>Testing Fluid Player</b></div>
 <li> Different video sources for different qualities.
 <li> In-stream pre-roll video ad from ExoClick (5 minutes capping)
+<li> <b>Cool Blue</b> template from Fluid Player CDN
 	
 <link rel="stylesheet" href="https://cdn.fluidplayer.com/current/fluidplayer.min.css" type="text/css"/>
 <script src="https://cdn.fluidplayer.com/current/fluidplayer.min.js"></script>
@@ -14,7 +15,8 @@
 
 <script type="text/javascript">
 	var testVideo = fluidPlayer('my-video', {
-	 adList: [{roll: 'preRoll', vastTag: 'https://syndication.exosrv.com/splash.php?idzone=2916384'}]
+	 adList: [{roll: 'preRoll', vastTag: 'https://syndication.exosrv.com/splash.php?idzone=2916384'}],
+	 templateLocation: 'http://cdn.fluidplayer.com/current/templates/cool_blue'
 	});
 </script>
-</bpdy>
+</body>
