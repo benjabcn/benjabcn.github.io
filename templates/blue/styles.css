@@ -130,7 +130,8 @@ _:-ms-lang(x),
 }
 
 .fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_progress_container .fluid_controls_progress:hover {
-    height: 8px;
+    top: 6px;
+    height: 6px;
 }
 
 .fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_progress_container .fluid_controls_progress .fluid_controls_currentprogress {
@@ -212,6 +213,15 @@ _:-ms-lang(x),
     height: 7px;
     position: absolute;
     top: -2px;
+    border-radius: 4px;
+}
+
+.fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_right .fluid_control_volume_container .fluid_control_volume .fluid_control_currentvolume .fluid_control_volume_currentpos:hover,
+.fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_progress_container .fluid_controls_progress .fluid_controls_currentpos:hover {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: -4px;
     border-radius: 4px;
 }
 
