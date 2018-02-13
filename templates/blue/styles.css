@@ -133,12 +133,18 @@ _:-ms-lang(x),
     height: 6px;
 }
 
+.fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_progress_container.fluid_slider .fluid_controls_progress:hover .fluid_controls_currentprogress,
+.fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_progress_container.fluid_slider .fluid_controls_progress:hover .fluid_controls_currentprogress .fluid_controls_currentpos {
+    background-color: red;
+    height: 6px;
+}
+
 .fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_progress_container .fluid_controls_progress:hover .fluid_controls_currentpos {
-    width: 10px;
-    height: 10px;
+    width: 14px;
+    height: 14px;
     position: absolute;
     top: -2px;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 .fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_progress_container .fluid_controls_progress .fluid_controls_currentprogress {
@@ -162,12 +168,6 @@ _:-ms-lang(x),
 .fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_progress_container.fluid_slider .fluid_controls_progress .fluid_controls_currentprogress,
 .fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_progress_container.fluid_slider .fluid_controls_progress .fluid_controls_currentprogress .fluid_controls_currentpos {
     background-color: red;
-}
-
-.fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_progress_container.fluid_slider .fluid_controls_progress .fluid_controls_currentprogress:hover,
-.fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_progress_container.fluid_slider .fluid_controls_progress .fluid_controls_currentprogress .fluid_controls_currentpos:hover {
-    background-color: red;
-    height: 6px;
 }
 
 .fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_progress_container.fluid_ad_slider .fluid_controls_progress .fluid_controls_currentprogress {
