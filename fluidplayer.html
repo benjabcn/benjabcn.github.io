@@ -2,10 +2,11 @@
 <div><b>Testing Fluid Player</b></div>
 
 <ul>
-<li> Different video sources for different qualities.
-<li> In-stream pre-roll video ad from ExoClick (5 minutes capping)
-<li> Default layout from Fluid Player CDN
-<li> Show "Advertising" on top right when a pre-roll is running
+<li>Different video sources for different qualities.</li>
+<li>In-stream pre-roll video ad from ExoClick (5 minutes capping)</li>
+<li>Default layout from Fluid Player CDN</li>
+<li>Show "Advertising" on top right when a pre-roll is running</li>
+<li>Show a clickable logo on bottom right of the video</li>
 </ul>
 
 <link rel="stylesheet" href="https://cdn.fluidplayer.com/current/fluidplayer.min.css" type="text/css"/>
@@ -23,20 +24,15 @@
 	 layout: 'default',
 	 logo: 'buzz-logo.png',
 	 logoPosition: 'bottom right',
-	 logoUrl: 'https://www.google.com' 
+	 logoUrl: 'https://www.buzzfeed.com' 
 	});
 </script>
 	
-<div>Code</div>
-	
-<div style="color: #808080; background-color: #D3D3D3; border: #808080;">
-	</div>
-<code>
-<pre>
+<div>Notes</div>
 
-XXX
-
-</code>
-</pre>
+<ul>
+<li>We miss the possiility to set padding (in px) to the logo</li>
+<li>We should differentiate between a "watermark logo" as we have now versus a logo to show in video controls (like YouTube)</li>
+</ul>
 	
 </body>
