@@ -129,12 +129,12 @@ _:-ms-lang(x),
     z-index: 3;
 }
 
-.fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_progress_container .fluid_controls_progress:hover .fluid_controls_currentpos {
+.fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_progress_container .fluid_controls_progress:hover {
     top: 4px;
     height: 6px;
 }
 
-.fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_progress_container .fluid_controls_progress:hover {
+.fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_progress_container .fluid_controls_progress:hover .fluid_controls_currentpos {
     width: 10px;
     height: 10px;
     position: absolute;
