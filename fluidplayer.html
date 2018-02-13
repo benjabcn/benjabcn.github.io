@@ -1,17 +1,22 @@
 <body>
 <div><b>Testing Fluid Player</b></div>
+
+<ul>
 <li> Different video sources for different qualities.
 <li> In-stream pre-roll video ad from ExoClick (5 minutes capping)
 <li> <b>Cool Blue</b> template from Fluid Player CDN
-	
+</ul>
+
 <link rel="stylesheet" href="https://cdn.fluidplayer.com/current/fluidplayer.min.css" type="text/css"/>
 <script src="https://cdn.fluidplayer.com/current/fluidplayer.min.js"></script>
 
+<div
 <video id='my-video' controls style="width: 640px; height: 360px;">
   <source src='http://www.html5videoplayer.net/videos/toystory.mp4' type='video/mp4' title='1080' />
   <source src='http://www.html5videoplayer.net/videos/toystory.mp4' type='video/mp4' title='720' />
   <source src='http://www.html5videoplayer.net/videos/toystory.mp4' type='video/mp4' title='480' />
 </video>
+</div>
 
 <script type="text/javascript">
 	var testVideo = fluidPlayer('my-video', {
