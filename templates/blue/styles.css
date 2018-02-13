@@ -130,7 +130,6 @@ _:-ms-lang(x),
 }
 
 .fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_progress_container .fluid_controls_progress:hover {
-    top: 4px;
     height: 6px;
 }
 
@@ -138,7 +137,7 @@ _:-ms-lang(x),
     width: 10px;
     height: 10px;
     position: absolute;
-    top: -40px;
+    top: -2px;
     border-radius: 4px;
 }
 
@@ -163,6 +162,7 @@ _:-ms-lang(x),
 .fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_progress_container.fluid_slider .fluid_controls_progress .fluid_controls_currentprogress,
 .fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_progress_container.fluid_slider .fluid_controls_progress .fluid_controls_currentprogress .fluid_controls_currentpos {
     background-color: red;
+    height: 6px;
 }
 
 .fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_progress_container.fluid_ad_slider .fluid_controls_progress .fluid_controls_currentprogress {
