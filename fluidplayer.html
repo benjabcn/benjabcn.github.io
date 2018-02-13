@@ -1,16 +1,20 @@
 <body>
-<div>
-<b>Testing Fluid Player</b>
-</div>
-
+<div><b>Testing Fluid Player</b></div>
+<li> Different video sources for different qualities.
+<li> 
+	
 <link rel="stylesheet" href="https://cdn.fluidplayer.com/current/fluidplayer.min.css" type="text/css"/>
 <script src="https://cdn.fluidplayer.com/current/fluidplayer.min.js"></script>
 
 <video id='my-video' controls style="width: 640px; height: 360px;">
-  <source src='http://www.html5videoplayer.net/videos/toystory.mp4' type='video/mp4' />
+  <source src='http://www.html5videoplayer.net/videos/toystory.mp4' type='video/mp4' title='1080' />
+  <source src='http://www.html5videoplayer.net/videos/toystory.mp4' type='video/mp4' title='720' />
+  <source src='http://www.html5videoplayer.net/videos/toystory.mp4' type='video/mp4' title='480' />
 </video>
 
 <script type="text/javascript">
-	var testVideo = fluidPlayer('my-video');
+	var testVideo = fluidPlayer('my-video', {
+	 adList: [{roll: 'preRoll', vastTag: 'https://syndication.exosrv.com/splash.php?idzone=2916384'}]
+	});
 </script>
 </bpdy>
