@@ -22,8 +22,9 @@
 	var testVideo = fluidPlayer('my-video', {
 	 adList: [{roll: 'preRoll', vastTag: 'https://syndication.exosrv.com/splash.php?idzone=2916384'}],
 	 layout: 'default',
+	 adText : 'Advertising',
 	 logo: 'buzz-logo.png',
-	 logoPosition: 'bottom right',
+	 logoPosition: 'top right',
 	 logoUrl: 'https://www.buzzfeed.com' 
 	});
 </script>
@@ -33,6 +34,7 @@
 <ul>
 <li>We miss the possiility to set padding (in px) to the logo</li>
 <li>We should differentiate between a "watermark logo" as we have now versus a logo to show in video controls (like YouTube)</li>
+<li>We should manage mouseover the logo so we can have a different logo under this event</li>
 </ul>
 	
 </body>
