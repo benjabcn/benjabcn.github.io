@@ -129,6 +129,10 @@ _:-ms-lang(x),
     z-index: 3;
 }
 
+.fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_progress_container .fluid_controls_progress:hover {
+    height: 8px;
+}
+
 .fluid_video_wrapper.fluid_player_layout_blue .fluid_controls_container .fluid_controls_progress_container .fluid_controls_progress .fluid_controls_currentprogress {
     top: 0px;
     left: 0px;
